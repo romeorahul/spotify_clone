@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {IoLibrary} from "react-icons/io5";
+import { IoLibrary } from "react-icons/io5";
 import { MdHomeFilled, MdSearch } from "react-icons/md";
 import Playlists from "./Playlists";
 
@@ -13,16 +13,16 @@ export default function Sidebar() {
         </div>
 
         <ul>
-          <li> 
-          <MdHomeFilled />
+          <li>
+            <MdHomeFilled />
             <span>Home</span>
           </li>
           <li>
-          <MdSearch />
+            <MdSearch />
             <span>Search</span>
           </li>
           <li>
-          <IoLibrary />
+            <IoLibrary />
             <span>Your Library</span>
           </li>
         </ul>
@@ -45,7 +45,7 @@ const Container = styled.div`
     .logo {
       text-align: center;
       margin: 1rem 0;
-      
+
       img {
         max-inline-size: 80%;
         block-size: auto;
@@ -71,5 +71,4 @@ const Container = styled.div`
       }
     }
   }
-
 `;
